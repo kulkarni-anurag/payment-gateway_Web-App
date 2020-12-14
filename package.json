@@ -1,0 +1,19 @@
+{
+  "name": "cashfree_integration",
+  "version": "1.0.0",
+  "description": "Payment Gateway Integration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kulkarni-anurag",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
