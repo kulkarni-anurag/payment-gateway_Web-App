@@ -16,6 +16,10 @@ app.get('/', (req,res) => {
     res.render('index');
 })
 
+const paymentRouter = require('./routes/payment');
+
+app.use('/payments', paymentRouter);
+
 app.listen(port, () => {
     console.log(`Server running on port: ${port}`);
 })
